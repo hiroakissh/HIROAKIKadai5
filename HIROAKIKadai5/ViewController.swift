@@ -14,7 +14,6 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
     }
 
     @IBAction private func calculationButton(_ sender: Any) {
@@ -41,8 +40,5 @@ class ViewController: UIViewController {
         }
 
         resultantLabel.text = String(num1 / num2)
-
     }
-
 }
-

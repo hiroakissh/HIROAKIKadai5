@@ -40,6 +40,7 @@ class ViewController: UIViewController {
             return
         }
 
+        resultantLabel.text = String(num1 / num2)
 
     }
 

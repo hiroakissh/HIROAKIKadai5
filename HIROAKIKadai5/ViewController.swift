@@ -37,6 +37,7 @@ class ViewController: UIViewController {
 
         if num2 == 0 {
             present(zeroAlert, animated: true, completion: nil)
+            return
         }
 
 

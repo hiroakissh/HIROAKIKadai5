@@ -31,8 +31,8 @@ class ViewController: UIViewController {
             self.dismiss(animated: true, completion: nil)
         }
 
-        emptyAlert.addAction(ok)
-        zeroAlert.addAction(ok)
+        emptyAlert.addAction(okAction)
+        zeroAlert.addAction(okAction)
 
         if num1TextField.text?.isEmpty == true || num2TextField.text?.isEmpty == true {
             present(emptyAlert, animated: true, completion: nil)
@@ -47,6 +47,6 @@ class ViewController: UIViewController {
             return
         }
 
-        resultantLabel.text = String(num1 / num2)
+        resultantLabel.text = String(Double(num1 / num2))
     }
 }

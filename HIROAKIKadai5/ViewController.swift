@@ -17,9 +17,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction private func calculationButton(_ sender: Any) {
-        let emptyAlert: UIAlertController = UIAlertController(title: "課題5", message: "割る数を入力してください", preferredStyle: .alert)
-        let zeroAlert: UIAlertController = UIAlertController(title: "課題5", message: "割る数に0を入力しないでください", preferredStyle: .alert)
-        let ok = UIAlertAction(title: "OK", style: .default) { (action) in
+        let emptyAlert: UIAlertController = UIAlertController(
+                                                    title: "課題5",
+                                                    message: "割る数を入力してください",
+                                                    preferredStyle: .alert)
+        let zeroAlert: UIAlertController = UIAlertController(
+                                                    title: "課題5",
+                                                    message: "割る数に0を入力しないでください",
+                                                    preferredStyle: .alert)
+        let okAction = UIAlertAction(
+                    title: "OK",
+                    style: .default) { _ in
             self.dismiss(animated: true, completion: nil)
         }
 

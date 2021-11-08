@@ -10,6 +10,7 @@ import UIKit
 class ViewController: UIViewController {
     @IBOutlet private weak var num1TextField: UITextField!
     @IBOutlet private weak var num2TextField: UITextField!
+    @IBOutlet private weak var resultantLabel: UILabel!
 
 
     override func viewDidLoad() {

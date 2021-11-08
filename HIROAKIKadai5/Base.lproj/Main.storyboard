@@ -52,6 +52,11 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                     </view>
+                    <connections>
+                        <outlet property="num1TextField" destination="PEV-rv-hbc" id="PLh-wB-P3p"/>
+                        <outlet property="num2TextField" destination="NDs-Uo-fP6" id="IRO-50-4nL"/>
+                        <outlet property="resultantLabel" destination="VfF-CG-bXS" id="sd8-dC-yHf"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

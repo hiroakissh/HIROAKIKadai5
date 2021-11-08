@@ -24,6 +24,13 @@ class ViewController: UIViewController {
         let emptyAlert: UIAlertController = UIAlertController(title: "課題5", message: "割る数を入力してください", preferredStyle: .alert)
         let zeroAlert: UIAlertController = UIAlertController(title: "課題5", message: "割る数に0を入力しないでください", preferredStyle: .alert)
 
+        if num1TextField.text?.isEmpty == true || num2TextField.text?.isEmpty == true {
+            present(emptyAlert, animated: true, completion: nil)
+            return
+        }
+        
+
+
     }
 
 }

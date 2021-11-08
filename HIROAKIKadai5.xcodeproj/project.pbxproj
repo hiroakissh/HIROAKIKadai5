@@ -13,9 +13,12 @@
 		533FD18827392B0B002176BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533FD18627392B0B002176BE /* Main.storyboard */; };
 		533FD18A27392B0C002176BE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 533FD18927392B0C002176BE /* Assets.xcassets */; };
 		533FD18D27392B0C002176BE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 533FD18B27392B0C002176BE /* LaunchScreen.storyboard */; };
+		A28AA600D107362034246B9B /* Pods_HIROAKIKadai5.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE04DE78EF1D593FC675A245 /* Pods_HIROAKIKadai5.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1BEBF25DAF57345440935545 /* Pods-HIROAKIKadai5.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIROAKIKadai5.debug.xcconfig"; path = "Target Support Files/Pods-HIROAKIKadai5/Pods-HIROAKIKadai5.debug.xcconfig"; sourceTree = "<group>"; };
+		29F7525758F79A3044452DF4 /* Pods-HIROAKIKadai5.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HIROAKIKadai5.release.xcconfig"; path = "Target Support Files/Pods-HIROAKIKadai5/Pods-HIROAKIKadai5.release.xcconfig"; sourceTree = "<group>"; };
 		533FD17D27392B0B002176BE /* HIROAKIKadai5.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HIROAKIKadai5.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		533FD18027392B0B002176BE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		533FD18227392B0B002176BE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		533FD18927392B0C002176BE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		533FD18C27392B0C002176BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		533FD18E27392B0C002176BE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CE04DE78EF1D593FC675A245 /* Pods_HIROAKIKadai5.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HIROAKIKadai5.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +35,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A28AA600D107362034246B9B /* Pods_HIROAKIKadai5.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +47,8 @@
 			children = (
 				533FD17F27392B0B002176BE /* HIROAKIKadai5 */,
 				533FD17E27392B0B002176BE /* Products */,
+				C42B853168C5E9C7899C528D /* Pods */,
+				5CB76EC203CA0164D35162BE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -67,6 +74,23 @@
 			path = HIROAKIKadai5;
 			sourceTree = "<group>";
 		};
+		5CB76EC203CA0164D35162BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE04DE78EF1D593FC675A245 /* Pods_HIROAKIKadai5.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C42B853168C5E9C7899C528D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBF25DAF57345440935545 /* Pods-HIROAKIKadai5.debug.xcconfig */,
+				29F7525758F79A3044452DF4 /* Pods-HIROAKIKadai5.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +98,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 533FD19127392B0C002176BE /* Build configuration list for PBXNativeTarget "HIROAKIKadai5" */;
 			buildPhases = (
+				1627E5680FFAB8A5451090D0 /* [CP] Check Pods Manifest.lock */,
 				533FD17927392B0B002176BE /* Sources */,
 				533FD17A27392B0B002176BE /* Frameworks */,
 				533FD17B27392B0B002176BE /* Resources */,
+				533FD19427392B89002176BE /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -132,6 +158,48 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1627E5680FFAB8A5451090D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HIROAKIKadai5-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		533FD19427392B89002176BE /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which \"${PODS_ROOT}/SwiftLint/swiftlint\" >/dev/null; then\n${PODS_ROOT}/SwiftLint/swiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		533FD17927392B0B002176BE /* Sources */ = {
@@ -284,6 +352,7 @@
 		};
 		533FD19227392B0C002176BE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1BEBF25DAF57345440935545 /* Pods-HIROAKIKadai5.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -312,6 +381,7 @@
 		};
 		533FD19327392B0C002176BE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29F7525758F79A3044452DF4 /* Pods-HIROAKIKadai5.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

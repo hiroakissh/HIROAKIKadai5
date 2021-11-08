@@ -24,6 +24,9 @@ class ViewController: UIViewController {
             self.dismiss(animated: true, completion: nil)
         }
 
+        emptyAlert.addAction(ok)
+        zeroAlert.addAction(ok)
+
         if num1TextField.text?.isEmpty == true || num2TextField.text?.isEmpty == true {
             present(emptyAlert, animated: true, completion: nil)
             return

@@ -18,6 +18,8 @@ class ViewController: UIViewController {
     }
 
     @IBAction func calculationButton(_ sender: Any) {
+        let num1 = Int(num1TextField.text ?? "") ?? 0
+        let num2 = Int(num2TextField.text ?? "") ?? 0
     }
 
 }

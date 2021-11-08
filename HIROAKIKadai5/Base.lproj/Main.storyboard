@@ -56,7 +56,7 @@
                                     <action selector="calculationButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N0C-m2-TEr"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="０" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VfF-CG-bXS">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="０" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VfF-CG-bXS">
                                 <rect key="frame" x="198" y="276" width="18" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -70,6 +70,7 @@
                             <constraint firstItem="NDs-Uo-fP6" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="L0d-K6-A4K"/>
                             <constraint firstItem="zZL-J2-uhk" firstAttribute="leading" secondItem="PEV-rv-hbc" secondAttribute="trailing" constant="30" id="UpT-xb-Gan"/>
                             <constraint firstItem="NDs-Uo-fP6" firstAttribute="leading" secondItem="zZL-J2-uhk" secondAttribute="trailing" constant="30" id="Wh2-iy-8wr"/>
+                            <constraint firstItem="VfF-CG-bXS" firstAttribute="top" secondItem="7v2-aZ-RDg" secondAttribute="bottom" constant="53" id="f4t-EV-Iwh"/>
                             <constraint firstItem="VfF-CG-bXS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="j2o-qL-oci"/>
                             <constraint firstItem="7v2-aZ-RDg" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="jnl-iJ-Ssx"/>
                             <constraint firstItem="PEV-rv-hbc" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="64" id="ogD-cA-eNk"/>

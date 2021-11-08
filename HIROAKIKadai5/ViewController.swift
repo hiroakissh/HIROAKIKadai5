@@ -20,6 +20,9 @@ class ViewController: UIViewController {
     @IBAction func calculationButton(_ sender: Any) {
         let num1 = Int(num1TextField.text ?? "") ?? 0
         let num2 = Int(num2TextField.text ?? "") ?? 0
+
+        let emptyAlert: UIAlertController = UIAlertController(title: "課題5", message: "割る数を入力してください", preferredStyle: .alert)
+
     }
 
 }

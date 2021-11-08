@@ -41,8 +41,8 @@ class ViewController: UIViewController {
             return
         }
 
-        let num1 = Int(num1TextField.text ?? "") ?? 0
-        let num2 = Int(num2TextField.text ?? "") ?? 0
+        let num1 = Double(num1TextField.text ?? "") ?? 0.0
+        let num2 = Double(num2TextField.text ?? "") ?? 0.0
 
         if num2 == 0 {
             present(zeroAlert, animated: true, completion: nil)
